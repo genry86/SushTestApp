@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB842B701A19446F00BF433B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB842B5E1A19446F00BF433B /* AppDelegate.m */; };
+		BB842B711A19446F00BF433B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB842B5F1A19446F00BF433B /* Images.xcassets */; };
+		BB842B721A19446F00BF433B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB842B601A19446F00BF433B /* Info.plist */; };
+		BB842B731A19446F00BF433B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB842B611A19446F00BF433B /* main.m */; };
+		BB842B741A19446F00BF433B /* FTWCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BB842B6B1A19446F00BF433B /* FTWCache.m */; };
+		BB842B7D1A19467700BF433B /* HumanItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BB842B7C1A19467700BF433B /* HumanItem.m */; };
+		BB842B7F1A19470500BF433B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB842B7E1A19470500BF433B /* Foundation.framework */; };
+		BB842B811A19471100BF433B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB842B801A19471100BF433B /* UIKit.framework */; };
+		BB842B831A19471C00BF433B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB842B821A19471C00BF433B /* CoreGraphics.framework */; };
+		BB842B881A1948AC00BF433B /* UIImage (Utility).m in Sources */ = {isa = PBXBuildFile; fileRef = BB842B871A1948AC00BF433B /* UIImage (Utility).m */; };
+		BB842B8B1A19491700BF433B /* DownloadDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BB842B8A1A19491700BF433B /* DownloadDataHelper.m */; };
+		BB842B8E1A19495E00BF433B /* GlobalConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BB842B8D1A19495E00BF433B /* GlobalConstants.m */; };
+		BB842B911A194A3600BF433B /* GlobalFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = BB842B901A194A3600BF433B /* GlobalFunctions.m */; };
+		BB842B941A194A9900BF433B /* NSData (Utility).m in Sources */ = {isa = PBXBuildFile; fileRef = BB842B931A194A9900BF433B /* NSData (Utility).m */; };
+		BB842B971A194DAC00BF433B /* NSString (Utility).m in Sources */ = {isa = PBXBuildFile; fileRef = BB842B961A194DAC00BF433B /* NSString (Utility).m */; };
+		BB842B9B1A19503500BF433B /* PeapleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB842B991A19503500BF433B /* PeapleViewController.m */; };
+		BB842B9C1A19503500BF433B /* PeapleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB842B9A1A19503500BF433B /* PeapleViewController.xib */; };
+		BB842BA11A195CF700BF433B /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BB842B9E1A195CF700BF433B /* ProgressHUD.bundle */; };
+		BB842BA21A195CF700BF433B /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BB842BA01A195CF700BF433B /* ProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB842B331A19420300BF433B /* Sush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sush.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB842B5D1A19446F00BF433B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB842B5E1A19446F00BF433B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB842B5F1A19446F00BF433B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB842B601A19446F00BF433B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB842B611A19446F00BF433B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB842B6A1A19446F00BF433B /* FTWCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTWCache.h; sourceTree = "<group>"; };
+		BB842B6B1A19446F00BF433B /* FTWCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTWCache.m; sourceTree = "<group>"; };
+		BB842B7B1A19467700BF433B /* HumanItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HumanItem.h; sourceTree = "<group>"; };
+		BB842B7C1A19467700BF433B /* HumanItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HumanItem.m; sourceTree = "<group>"; };
+		BB842B7E1A19470500BF433B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB842B801A19471100BF433B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB842B821A19471C00BF433B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB842B851A19482600BF433B /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BB842B861A1948AC00BF433B /* UIImage (Utility).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage (Utility).h"; sourceTree = "<group>"; };
+		BB842B871A1948AC00BF433B /* UIImage (Utility).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage (Utility).m"; sourceTree = "<group>"; };
+		BB842B891A19491700BF433B /* DownloadDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadDataHelper.h; sourceTree = "<group>"; };
+		BB842B8A1A19491700BF433B /* DownloadDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadDataHelper.m; sourceTree = "<group>"; };
+		BB842B8C1A19495E00BF433B /* GlobalConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalConstants.h; sourceTree = "<group>"; };
+		BB842B8D1A19495E00BF433B /* GlobalConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalConstants.m; sourceTree = "<group>"; };
+		BB842B8F1A194A3600BF433B /* GlobalFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalFunctions.h; sourceTree = "<group>"; };
+		BB842B901A194A3600BF433B /* GlobalFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalFunctions.m; sourceTree = "<group>"; };
+		BB842B921A194A9900BF433B /* NSData (Utility).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData (Utility).h"; sourceTree = "<group>"; };
+		BB842B931A194A9900BF433B /* NSData (Utility).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData (Utility).m"; sourceTree = "<group>"; };
+		BB842B951A194DAC00BF433B /* NSString (Utility).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString (Utility).h"; sourceTree = "<group>"; };
+		BB842B961A194DAC00BF433B /* NSString (Utility).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString (Utility).m"; sourceTree = "<group>"; };
+		BB842B981A19503500BF433B /* PeapleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeapleViewController.h; sourceTree = "<group>"; };
+		BB842B991A19503500BF433B /* PeapleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeapleViewController.m; sourceTree = "<group>"; };
+		BB842B9A1A19503500BF433B /* PeapleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeapleViewController.xib; sourceTree = "<group>"; };
+		BB842B9E1A195CF700BF433B /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		BB842B9F1A195CF700BF433B /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		BB842BA01A195CF700BF433B /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB842B301A19420300BF433B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB842B831A19471C00BF433B /* CoreGraphics.framework in Frameworks */,
+				BB842B811A19471100BF433B /* UIKit.framework in Frameworks */,
+				BB842B7F1A19470500BF433B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB842B2A1A19420300BF433B = {
+			isa = PBXGroup;
+			children = (
+				BB842B351A19420300BF433B /* Sush */,
+				BB842B841A19473600BF433B /* Frameworks */,
+				BB842B341A19420300BF433B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB842B341A19420300BF433B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB842B331A19420300BF433B /* Sush.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB842B351A19420300BF433B /* Sush */ = {
+			isa = PBXGroup;
+			children = (
+				BB842B5C1A19446F00BF433B /* Application */,
+				BB842B771A19454F00BF433B /* Controllers */,
+				BB842B621A19446F00BF433B /* Library */,
+				BB842B661A19446F00BF433B /* Models */,
+				BB842B671A19446F00BF433B /* Resources */,
+				BB842B681A19446F00BF433B /* Vendors */,
+			);
+			path = Sush;
+			sourceTree = "<group>";
+		};
+		BB842B5C1A19446F00BF433B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BB842B5D1A19446F00BF433B /* AppDelegate.h */,
+				BB842B5E1A19446F00BF433B /* AppDelegate.m */,
+				BB842B5F1A19446F00BF433B /* Images.xcassets */,
+				BB842B601A19446F00BF433B /* Info.plist */,
+				BB842B611A19446F00BF433B /* main.m */,
+				BB842B851A19482600BF433B /* PrefixHeader.pch */,
+				BB842B8C1A19495E00BF433B /* GlobalConstants.h */,
+				BB842B8D1A19495E00BF433B /* GlobalConstants.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		BB842B621A19446F00BF433B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				BB842B631A19446F00BF433B /* Categories */,
+				BB842B641A19446F00BF433B /* GlobalFunctions */,
+				BB842B651A19446F00BF433B /* Helpers */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		BB842B631A19446F00BF433B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BB842B861A1948AC00BF433B /* UIImage (Utility).h */,
+				BB842B871A1948AC00BF433B /* UIImage (Utility).m */,
+				BB842B921A194A9900BF433B /* NSData (Utility).h */,
+				BB842B931A194A9900BF433B /* NSData (Utility).m */,
+				BB842B951A194DAC00BF433B /* NSString (Utility).h */,
+				BB842B961A194DAC00BF433B /* NSString (Utility).m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		BB842B641A19446F00BF433B /* GlobalFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				BB842B8F1A194A3600BF433B /* GlobalFunctions.h */,
+				BB842B901A194A3600BF433B /* GlobalFunctions.m */,
+			);
+			path = GlobalFunctions;
+			sourceTree = "<group>";
+		};
+		BB842B651A19446F00BF433B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BB842B891A19491700BF433B /* DownloadDataHelper.h */,
+				BB842B8A1A19491700BF433B /* DownloadDataHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BB842B661A19446F00BF433B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB842B7B1A19467700BF433B /* HumanItem.h */,
+				BB842B7C1A19467700BF433B /* HumanItem.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BB842B671A19446F00BF433B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BB842B681A19446F00BF433B /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				BB842B9D1A195CF700BF433B /* ProgressHUD */,
+				BB842B691A19446F00BF433B /* FTWCache */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		BB842B691A19446F00BF433B /* FTWCache */ = {
+			isa = PBXGroup;
+			children = (
+				BB842B6A1A19446F00BF433B /* FTWCache.h */,
+				BB842B6B1A19446F00BF433B /* FTWCache.m */,
+			);
+			path = FTWCache;
+			sourceTree = "<group>";
+		};
+		BB842B771A19454F00BF433B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB842B981A19503500BF433B /* PeapleViewController.h */,
+				BB842B991A19503500BF433B /* PeapleViewController.m */,
+				BB842B9A1A19503500BF433B /* PeapleViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BB842B841A19473600BF433B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB842B821A19471C00BF433B /* CoreGraphics.framework */,
+				BB842B801A19471100BF433B /* UIKit.framework */,
+				BB842B7E1A19470500BF433B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB842B9D1A195CF700BF433B /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BB842B9E1A195CF700BF433B /* ProgressHUD.bundle */,
+				BB842B9F1A195CF700BF433B /* ProgressHUD.h */,
+				BB842BA01A195CF700BF433B /* ProgressHUD.m */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB842B321A19420300BF433B /* Sush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB842B561A19420300BF433B /* Build configuration list for PBXNativeTarget "Sush" */;
+			buildPhases = (
+				BB842B2F1A19420300BF433B /* Sources */,
+				BB842B301A19420300BF433B /* Frameworks */,
+				BB842B311A19420300BF433B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sush;
+			productName = Sush;
+			productReference = BB842B331A19420300BF433B /* Sush.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB842B2B1A19420300BF433B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Genry;
+				TargetAttributes = {
+					BB842B321A19420300BF433B = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = BB842B2E1A19420300BF433B /* Build configuration list for PBXProject "Sush" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB842B2A1A19420300BF433B;
+			productRefGroup = BB842B341A19420300BF433B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB842B321A19420300BF433B /* Sush */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB842B311A19420300BF433B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB842BA11A195CF700BF433B /* ProgressHUD.bundle in Resources */,
+				BB842B721A19446F00BF433B /* Info.plist in Resources */,
+				BB842B711A19446F00BF433B /* Images.xcassets in Resources */,
+				BB842B9C1A19503500BF433B /* PeapleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB842B2F1A19420300BF433B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB842B731A19446F00BF433B /* main.m in Sources */,
+				BB842B9B1A19503500BF433B /* PeapleViewController.m in Sources */,
+				BB842B941A194A9900BF433B /* NSData (Utility).m in Sources */,
+				BB842B701A19446F00BF433B /* AppDelegate.m in Sources */,
+				BB842B8E1A19495E00BF433B /* GlobalConstants.m in Sources */,
+				BB842B971A194DAC00BF433B /* NSString (Utility).m in Sources */,
+				BB842BA21A195CF700BF433B /* ProgressHUD.m in Sources */,
+				BB842B8B1A19491700BF433B /* DownloadDataHelper.m in Sources */,
+				BB842B881A1948AC00BF433B /* UIImage (Utility).m in Sources */,
+				BB842B911A194A3600BF433B /* GlobalFunctions.m in Sources */,
+				BB842B741A19446F00BF433B /* FTWCache.m in Sources */,
+				BB842B7D1A19467700BF433B /* HumanItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BB842B541A19420300BF433B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB842B551A19420300BF433B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB842B571A19420300BF433B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = Sush/Application/PrefixHeader.pch;
+				INFOPLIST_FILE = Sush/Application/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB842B581A19420300BF433B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = Sush/Application/PrefixHeader.pch;
+				INFOPLIST_FILE = Sush/Application/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB842B2E1A19420300BF433B /* Build configuration list for PBXProject "Sush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB842B541A19420300BF433B /* Debug */,
+				BB842B551A19420300BF433B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB842B561A19420300BF433B /* Build configuration list for PBXNativeTarget "Sush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB842B571A19420300BF433B /* Debug */,
+				BB842B581A19420300BF433B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB842B2B1A19420300BF433B /* Project object */;
+}

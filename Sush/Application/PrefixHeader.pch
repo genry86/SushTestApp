@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  Sush
+//
+//  Created by Genry on 11/16/14.
+//  Copyright (c) 2014 Genry. All rights reserved.
+//
+
+#ifndef Sush_PrefixHeader_pch
+#define Sush_PrefixHeader_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "FTWCache.h"
+#import "GlobalConstants.h"
+#import "GlobalFunctions.h"
+#import "NSData (Utility).h"
+#import "NSData (Utility).h"
+#import "GlobalFunctions.h"
+#import "NSString (Utility).h"
+#import "UIImage (Utility).h"
+#import "ProgressHUD.h"
+
+#endif
